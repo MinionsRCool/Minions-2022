@@ -1,0 +1,54 @@
+body {
+	background-color: lime;
+}
+h1 {
+	background-color: mediumaquamarine
+}
+p {
+	background-color: darkkhaki
+	line-height: 1.8;
+}
+
+#banner {
+	background-color: #00BFFF;	
+}
+
+#footer-row {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 1rem;
+}
+
+.follow {
+	font-family: 'Roboto';
+}
+
+#cards-row{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.card{
+	margin-bottom: 1rem;
+}
+
+#btn-container{
+	flex-direction: column;
+	position: absolute;
+	z-index: 10;
+	top: 13%;
+}
+
+#btn-col{
+	position: static;
+}
+
+.promo-btn{
+	margin-top: 10px;
+}
+
+@media(max-width: 576px){
+	.form-col{
+		position: static;
+	}
+}
